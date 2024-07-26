@@ -1,0 +1,61 @@
+.new__shop__list__item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1100px;
+    text-align: center;
+    
+}
+
+.shopitem__item {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #dfdcdc;
+    border-radius: 10px;
+}
+
+.img__item {
+    text-align: center;
+    margin-left: 5px;
+    height: 70px;
+    width: 70px;
+}
+
+.shooes__name__item {
+    width: 200px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    margin-left: 70px;
+}
+
+.info__item {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-right: 10px;
+    font-weight: 700;
+    color: red;
+    display:table;
+    width: 100%;
+    margin-left: 100px;
+}
+
+.price__item {
+    padding-left: 50px;
+    display: table-cell;
+    text-align: left;
+}
+
+.add__item {
+    align-items: center;
+    display: table-cell;
+    text-align: right;
+    color: red;
+    border-color: red;
+    margin-left: 70px;
+}
+
+.color__item {
+    margin-left: 100px;
+}

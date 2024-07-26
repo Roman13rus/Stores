@@ -1,0 +1,49 @@
+.new__shop__list__cart {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.shopcard__cart {
+    width:30%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #b6b3b3;
+    border-radius: 10px;
+}
+
+.img__cart {
+    text-align: center;
+    margin-left: 5px;
+    
+    height: 300px;
+    width: 350px;
+}
+
+.shooes__name__cart {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+}
+
+.info__cart {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-right: 10px;
+    font-weight: 700;
+    color: red;
+    display:table;
+    width: 100%;
+}
+
+.price__cart {
+    padding-left: 50px;
+    display: table-cell;
+    text-align: left;
+}
+
+.add__cart {
+    align-items: center;
+    display: table-cell;
+    text-align: right;
+    color: red;
+    border-color: red;
+}
